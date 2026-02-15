@@ -1,0 +1,1010 @@
+=======================================
+  Problem 6: Cheapest Route w/ Deadline
+=======================================
+Total nodes loaded: 46669
+
+Enter source (longitude latitude): Enter destination (longitude latitude): Enter start time (hour minute in 24h format): Enter deadline time (hour minute in 24h format): 
+=======================================
+Starting Journey at 5:00 PM
+Must arrive by 8:00 PM
+Available time window: 180 minutes
+=======================================
+
+2. Network Travel:
+   Must start by: 5:00 PM
+   Must finish by: 8:00 PM
+   Searching for cheapest route...
+   ✅ Found valid route!
+   Start: 5:00 PM
+   End: 7:56 PM
+   Cost: 48.71 Taka
+   Number of segments: 116
+
+=======================================
+       SUMMARY
+=======================================
+Departure Time: 5:00 PM
+Arrival Time: 7:56 PM
+Deadline: 8:00 PM
+Slack Time: 4 minutes ✅ (On time!)
+Total Duration: 176 minutes
+Total Cost: 48.71 Taka
+
+=======================================
+       COST BREAKDOWN
+=======================================
+Car: 36.75 Taka (1.838 km)
+Metro: 11.96 Taka (2.391 km)
+
+=======================================
+       DETAILED ROUTE
+=======================================
+
+Step 1:
+  Mode: Metro (Speed: 15.000 km/h, Cost: ৳5.000/km)
+  Depart: 5:00 PM
+  Arrive: 5:01 PM
+  Travel Time: 1 minutes
+  Distance: 0.030 km
+  Segment Cost: 0.15 Taka
+
+Step 2:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:01 PM
+  Arrive: 5:02 PM
+  Travel Time: 1 minutes
+  Distance: 0.037 km
+  Segment Cost: 0.75 Taka
+
+Step 3:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 3 minutes (next departure at 5:05 PM)
+  Depart: 5:05 PM
+  Arrive: 5:06 PM
+  Travel Time: 1 minutes
+  Distance: 0.146 km
+  Segment Cost: 0.73 Taka
+
+Step 4:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:06 PM
+  Arrive: 5:07 PM
+  Travel Time: 1 minutes
+  Distance: 0.016 km
+  Segment Cost: 0.33 Taka
+
+Step 5:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:07 PM
+  Arrive: 5:08 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Segment Cost: 0.06 Taka
+
+Step 6:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 2 minutes (next departure at 5:10 PM)
+  Depart: 5:10 PM
+  Arrive: 5:11 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Segment Cost: 0.13 Taka
+
+Step 7:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:11 PM
+  Arrive: 5:12 PM
+  Travel Time: 1 minutes
+  Distance: 0.020 km
+  Segment Cost: 0.41 Taka
+
+Step 8:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:12 PM
+  Arrive: 5:13 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Segment Cost: 0.43 Taka
+
+Step 9:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 2 minutes (next departure at 5:15 PM)
+  Depart: 5:15 PM
+  Arrive: 5:16 PM
+  Travel Time: 1 minutes
+  Distance: 0.235 km
+  Segment Cost: 1.17 Taka
+
+Step 10:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:16 PM
+  Arrive: 5:17 PM
+  Travel Time: 1 minutes
+  Distance: 0.007 km
+  Segment Cost: 0.14 Taka
+
+Step 11:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 3 minutes (next departure at 5:20 PM)
+  Depart: 5:20 PM
+  Arrive: 5:21 PM
+  Travel Time: 1 minutes
+  Distance: 0.114 km
+  Segment Cost: 0.57 Taka
+
+Step 12:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:21 PM
+  Arrive: 5:22 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Segment Cost: 1.10 Taka
+
+Step 13:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:22 PM
+  Arrive: 5:23 PM
+  Travel Time: 1 minutes
+  Distance: 0.005 km
+  Segment Cost: 0.09 Taka
+
+Step 14:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:23 PM
+  Arrive: 5:24 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Segment Cost: 1.10 Taka
+
+Step 15:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 5:25 PM)
+  Depart: 5:25 PM
+  Arrive: 5:26 PM
+  Travel Time: 1 minutes
+  Distance: 0.066 km
+  Segment Cost: 0.33 Taka
+
+Step 16:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:26 PM
+  Arrive: 5:27 PM
+  Travel Time: 1 minutes
+  Distance: 0.034 km
+  Segment Cost: 0.69 Taka
+
+Step 17:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:27 PM
+  Arrive: 5:28 PM
+  Travel Time: 1 minutes
+  Distance: 0.006 km
+  Segment Cost: 0.12 Taka
+
+Step 18:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:28 PM
+  Arrive: 5:29 PM
+  Travel Time: 1 minutes
+  Distance: 0.022 km
+  Segment Cost: 0.43 Taka
+
+Step 19:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 5:30 PM)
+  Depart: 5:30 PM
+  Arrive: 5:31 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Segment Cost: 0.28 Taka
+
+Step 20:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 5:35 PM)
+  Depart: 5:35 PM
+  Arrive: 5:36 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Segment Cost: 0.28 Taka
+
+Step 21:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:36 PM
+  Arrive: 5:37 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Segment Cost: 0.20 Taka
+
+Step 22:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:37 PM
+  Arrive: 5:38 PM
+  Travel Time: 1 minutes
+  Distance: 0.017 km
+  Segment Cost: 0.34 Taka
+
+Step 23:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:38 PM
+  Arrive: 5:39 PM
+  Travel Time: 1 minutes
+  Distance: 0.030 km
+  Segment Cost: 0.60 Taka
+
+Step 24:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:39 PM
+  Arrive: 5:40 PM
+  Travel Time: 1 minutes
+  Distance: 0.020 km
+  Segment Cost: 0.39 Taka
+
+Step 25:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 5:40 PM
+  Arrive: 5:41 PM
+  Travel Time: 1 minutes
+  Distance: 0.069 km
+  Segment Cost: 0.34 Taka
+
+Step 26:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:41 PM
+  Arrive: 5:42 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Segment Cost: 0.42 Taka
+
+Step 27:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 3 minutes (next departure at 5:45 PM)
+  Depart: 5:45 PM
+  Arrive: 5:46 PM
+  Travel Time: 1 minutes
+  Distance: 0.107 km
+  Segment Cost: 0.54 Taka
+
+Step 28:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:46 PM
+  Arrive: 5:47 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Segment Cost: 0.05 Taka
+
+Step 29:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:47 PM
+  Arrive: 5:48 PM
+  Travel Time: 1 minutes
+  Distance: 0.008 km
+  Segment Cost: 0.16 Taka
+
+Step 30:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:48 PM
+  Arrive: 5:49 PM
+  Travel Time: 1 minutes
+  Distance: 0.046 km
+  Segment Cost: 0.92 Taka
+
+Step 31:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:49 PM
+  Arrive: 5:50 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Segment Cost: 0.20 Taka
+
+Step 32:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 5:50 PM
+  Arrive: 5:51 PM
+  Travel Time: 1 minutes
+  Distance: 0.063 km
+  Segment Cost: 0.31 Taka
+
+Step 33:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 5:55 PM)
+  Depart: 5:55 PM
+  Arrive: 5:56 PM
+  Travel Time: 1 minutes
+  Distance: 0.057 km
+  Segment Cost: 0.28 Taka
+
+Step 34:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:56 PM
+  Arrive: 5:57 PM
+  Travel Time: 1 minutes
+  Distance: 0.028 km
+  Segment Cost: 0.55 Taka
+
+Step 35:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:57 PM
+  Arrive: 5:58 PM
+  Travel Time: 1 minutes
+  Distance: 0.026 km
+  Segment Cost: 0.53 Taka
+
+Step 36:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 5:58 PM
+  Arrive: 5:59 PM
+  Travel Time: 1 minutes
+  Distance: 0.004 km
+  Segment Cost: 0.08 Taka
+
+Step 37:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 6:00 PM)
+  Depart: 6:00 PM
+  Arrive: 6:01 PM
+  Travel Time: 1 minutes
+  Distance: 0.033 km
+  Segment Cost: 0.16 Taka
+
+Step 38:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:01 PM
+  Arrive: 6:02 PM
+  Travel Time: 1 minutes
+  Distance: 0.029 km
+  Segment Cost: 0.58 Taka
+
+Step 39:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:02 PM
+  Arrive: 6:03 PM
+  Travel Time: 1 minutes
+  Distance: 0.027 km
+  Segment Cost: 0.55 Taka
+
+Step 40:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:03 PM
+  Arrive: 6:04 PM
+  Travel Time: 1 minutes
+  Distance: 0.027 km
+  Segment Cost: 0.54 Taka
+
+Step 41:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 6:05 PM)
+  Depart: 6:05 PM
+  Arrive: 6:06 PM
+  Travel Time: 1 minutes
+  Distance: 0.058 km
+  Segment Cost: 0.29 Taka
+
+Step 42:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:06 PM
+  Arrive: 6:07 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Segment Cost: 0.05 Taka
+
+Step 43:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:07 PM
+  Arrive: 6:08 PM
+  Travel Time: 1 minutes
+  Distance: 0.012 km
+  Segment Cost: 0.25 Taka
+
+Step 44:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:08 PM
+  Arrive: 6:09 PM
+  Travel Time: 1 minutes
+  Distance: 0.047 km
+  Segment Cost: 0.95 Taka
+
+Step 45:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 6:10 PM)
+  Depart: 6:10 PM
+  Arrive: 6:11 PM
+  Travel Time: 1 minutes
+  Distance: 0.061 km
+  Segment Cost: 0.30 Taka
+
+Step 46:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 6:15 PM)
+  Depart: 6:15 PM
+  Arrive: 6:16 PM
+  Travel Time: 1 minutes
+  Distance: 0.061 km
+  Segment Cost: 0.31 Taka
+
+Step 47:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:16 PM
+  Arrive: 6:17 PM
+  Travel Time: 1 minutes
+  Distance: 0.040 km
+  Segment Cost: 0.80 Taka
+
+Step 48:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:17 PM
+  Arrive: 6:18 PM
+  Travel Time: 1 minutes
+  Distance: 0.018 km
+  Segment Cost: 0.37 Taka
+
+Step 49:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 2 minutes (next departure at 6:20 PM)
+  Depart: 6:20 PM
+  Arrive: 6:21 PM
+  Travel Time: 1 minutes
+  Distance: 0.057 km
+  Segment Cost: 0.29 Taka
+
+Step 50:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:21 PM
+  Arrive: 6:22 PM
+  Travel Time: 1 minutes
+  Distance: 0.046 km
+  Segment Cost: 0.93 Taka
+
+Step 51:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:22 PM
+  Arrive: 6:23 PM
+  Travel Time: 1 minutes
+  Distance: 0.013 km
+  Segment Cost: 0.25 Taka
+
+Step 52:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:23 PM
+  Arrive: 6:24 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Segment Cost: 0.42 Taka
+
+Step 53:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 6:25 PM)
+  Depart: 6:25 PM
+  Arrive: 6:26 PM
+  Travel Time: 1 minutes
+  Distance: 0.041 km
+  Segment Cost: 0.20 Taka
+
+Step 54:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:26 PM
+  Arrive: 6:27 PM
+  Travel Time: 1 minutes
+  Distance: 0.032 km
+  Segment Cost: 0.64 Taka
+
+Step 55:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:27 PM
+  Arrive: 6:28 PM
+  Travel Time: 1 minutes
+  Distance: 0.023 km
+  Segment Cost: 0.45 Taka
+
+Step 56:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:28 PM
+  Arrive: 6:29 PM
+  Travel Time: 1 minutes
+  Distance: 0.043 km
+  Segment Cost: 0.87 Taka
+
+Step 57:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:29 PM
+  Arrive: 6:30 PM
+  Travel Time: 1 minutes
+  Distance: 0.016 km
+  Segment Cost: 0.33 Taka
+
+Step 58:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 6:30 PM
+  Arrive: 6:31 PM
+  Travel Time: 1 minutes
+  Distance: 0.054 km
+  Segment Cost: 0.27 Taka
+
+Step 59:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 6:35 PM)
+  Depart: 6:35 PM
+  Arrive: 6:36 PM
+  Travel Time: 1 minutes
+  Distance: 0.063 km
+  Segment Cost: 0.31 Taka
+
+Step 60:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:36 PM
+  Arrive: 6:37 PM
+  Travel Time: 1 minutes
+  Distance: 0.006 km
+  Segment Cost: 0.11 Taka
+
+Step 61:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:37 PM
+  Arrive: 6:38 PM
+  Travel Time: 1 minutes
+  Distance: 0.031 km
+  Segment Cost: 0.63 Taka
+
+Step 62:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:38 PM
+  Arrive: 6:39 PM
+  Travel Time: 1 minutes
+  Distance: 0.012 km
+  Segment Cost: 0.23 Taka
+
+Step 63:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:39 PM
+  Arrive: 6:40 PM
+  Travel Time: 1 minutes
+  Distance: 0.015 km
+  Segment Cost: 0.30 Taka
+
+Step 64:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 6:40 PM
+  Arrive: 6:41 PM
+  Travel Time: 1 minutes
+  Distance: 0.040 km
+  Segment Cost: 0.20 Taka
+
+Step 65:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:41 PM
+  Arrive: 6:42 PM
+  Travel Time: 1 minutes
+  Distance: 0.054 km
+  Segment Cost: 1.08 Taka
+
+Step 66:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 3 minutes (next departure at 6:45 PM)
+  Depart: 6:45 PM
+  Arrive: 6:46 PM
+  Travel Time: 1 minutes
+  Distance: 0.061 km
+  Segment Cost: 0.30 Taka
+
+Step 67:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:46 PM
+  Arrive: 6:47 PM
+  Travel Time: 1 minutes
+  Distance: 0.032 km
+  Segment Cost: 0.65 Taka
+
+Step 68:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:47 PM
+  Arrive: 6:48 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Segment Cost: 0.50 Taka
+
+Step 69:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:48 PM
+  Arrive: 6:49 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Segment Cost: 1.10 Taka
+
+Step 70:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:49 PM
+  Arrive: 6:50 PM
+  Travel Time: 1 minutes
+  Distance: 0.004 km
+  Segment Cost: 0.09 Taka
+
+Step 71:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 6:50 PM
+  Arrive: 6:51 PM
+  Travel Time: 1 minutes
+  Distance: 0.057 km
+  Segment Cost: 0.28 Taka
+
+Step 72:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:51 PM
+  Arrive: 6:52 PM
+  Travel Time: 1 minutes
+  Distance: 0.014 km
+  Segment Cost: 0.28 Taka
+
+Step 73:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:52 PM
+  Arrive: 6:53 PM
+  Travel Time: 1 minutes
+  Distance: 0.049 km
+  Segment Cost: 0.98 Taka
+
+Step 74:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:53 PM
+  Arrive: 6:54 PM
+  Travel Time: 1 minutes
+  Distance: 0.014 km
+  Segment Cost: 0.27 Taka
+
+Step 75:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 6:55 PM)
+  Depart: 6:55 PM
+  Arrive: 6:56 PM
+  Travel Time: 1 minutes
+  Distance: 0.047 km
+  Segment Cost: 0.23 Taka
+
+Step 76:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:56 PM
+  Arrive: 6:57 PM
+  Travel Time: 1 minutes
+  Distance: 0.023 km
+  Segment Cost: 0.47 Taka
+
+Step 77:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:57 PM
+  Arrive: 6:58 PM
+  Travel Time: 1 minutes
+  Distance: 0.023 km
+  Segment Cost: 0.46 Taka
+
+Step 78:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 6:58 PM
+  Arrive: 6:59 PM
+  Travel Time: 1 minutes
+  Distance: 0.011 km
+  Segment Cost: 0.23 Taka
+
+Step 79:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 7:00 PM)
+  Depart: 7:00 PM
+  Arrive: 7:01 PM
+  Travel Time: 1 minutes
+  Distance: 0.088 km
+  Segment Cost: 0.44 Taka
+
+Step 80:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 7:05 PM)
+  Depart: 7:05 PM
+  Arrive: 7:06 PM
+  Travel Time: 1 minutes
+  Distance: 0.059 km
+  Segment Cost: 0.29 Taka
+
+Step 81:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:06 PM
+  Arrive: 7:07 PM
+  Travel Time: 1 minutes
+  Distance: 0.012 km
+  Segment Cost: 0.23 Taka
+
+Step 82:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:07 PM
+  Arrive: 7:08 PM
+  Travel Time: 1 minutes
+  Distance: 0.030 km
+  Segment Cost: 0.60 Taka
+
+Step 83:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:08 PM
+  Arrive: 7:09 PM
+  Travel Time: 1 minutes
+  Distance: 0.011 km
+  Segment Cost: 0.23 Taka
+
+Step 84:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:09 PM
+  Arrive: 7:10 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Segment Cost: 0.50 Taka
+
+Step 85:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 7:10 PM
+  Arrive: 7:11 PM
+  Travel Time: 1 minutes
+  Distance: 0.059 km
+  Segment Cost: 0.29 Taka
+
+Step 86:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:11 PM
+  Arrive: 7:12 PM
+  Travel Time: 1 minutes
+  Distance: 0.009 km
+  Segment Cost: 0.19 Taka
+
+Step 87:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:12 PM
+  Arrive: 7:13 PM
+  Travel Time: 1 minutes
+  Distance: 0.038 km
+  Segment Cost: 0.77 Taka
+
+Step 88:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:13 PM
+  Arrive: 7:14 PM
+  Travel Time: 1 minutes
+  Distance: 0.018 km
+  Segment Cost: 0.36 Taka
+
+Step 89:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 7:15 PM)
+  Depart: 7:15 PM
+  Arrive: 7:16 PM
+  Travel Time: 1 minutes
+  Distance: 0.050 km
+  Segment Cost: 0.25 Taka
+
+Step 90:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:16 PM
+  Arrive: 7:17 PM
+  Travel Time: 1 minutes
+  Distance: 0.044 km
+  Segment Cost: 0.88 Taka
+
+Step 91:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:17 PM
+  Arrive: 7:18 PM
+  Travel Time: 1 minutes
+  Distance: 0.017 km
+  Segment Cost: 0.34 Taka
+
+Step 92:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:18 PM
+  Arrive: 7:19 PM
+  Travel Time: 1 minutes
+  Distance: 0.023 km
+  Segment Cost: 0.46 Taka
+
+Step 93:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:19 PM
+  Arrive: 7:20 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Segment Cost: 0.50 Taka
+
+Step 94:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 7:20 PM
+  Arrive: 7:21 PM
+  Travel Time: 1 minutes
+  Distance: 0.044 km
+  Segment Cost: 0.22 Taka
+
+Step 95:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:21 PM
+  Arrive: 7:22 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Segment Cost: 0.20 Taka
+
+Step 96:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:22 PM
+  Arrive: 7:23 PM
+  Travel Time: 1 minutes
+  Distance: 0.014 km
+  Segment Cost: 0.27 Taka
+
+Step 97:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:23 PM
+  Arrive: 7:24 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Segment Cost: 0.51 Taka
+
+Step 98:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:24 PM
+  Arrive: 7:25 PM
+  Travel Time: 1 minutes
+  Distance: 0.011 km
+  Segment Cost: 0.23 Taka
+
+Step 99:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 7:25 PM
+  Arrive: 7:26 PM
+  Travel Time: 1 minutes
+  Distance: 0.041 km
+  Segment Cost: 0.20 Taka
+
+Step 100:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:26 PM
+  Arrive: 7:27 PM
+  Travel Time: 1 minutes
+  Distance: 0.022 km
+  Segment Cost: 0.45 Taka
+
+Step 101:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:27 PM
+  Arrive: 7:28 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Segment Cost: 0.20 Taka
+
+Step 102:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 2 minutes (next departure at 7:30 PM)
+  Depart: 7:30 PM
+  Arrive: 7:31 PM
+  Travel Time: 1 minutes
+  Distance: 0.066 km
+  Segment Cost: 0.33 Taka
+
+Step 103:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:31 PM
+  Arrive: 7:32 PM
+  Travel Time: 1 minutes
+  Distance: 0.017 km
+  Segment Cost: 0.33 Taka
+
+Step 104:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:32 PM
+  Arrive: 7:33 PM
+  Travel Time: 1 minutes
+  Distance: 0.048 km
+  Segment Cost: 0.96 Taka
+
+Step 105:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:33 PM
+  Arrive: 7:34 PM
+  Travel Time: 1 minutes
+  Distance: 0.037 km
+  Segment Cost: 0.73 Taka
+
+Step 106:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 1 minutes (next departure at 7:35 PM)
+  Depart: 7:35 PM
+  Arrive: 7:36 PM
+  Travel Time: 1 minutes
+  Distance: 0.039 km
+  Segment Cost: 0.19 Taka
+
+Step 107:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:36 PM
+  Arrive: 7:37 PM
+  Travel Time: 1 minutes
+  Distance: 0.022 km
+  Segment Cost: 0.44 Taka
+
+Step 108:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:37 PM
+  Arrive: 7:38 PM
+  Travel Time: 1 minutes
+  Distance: 0.019 km
+  Segment Cost: 0.39 Taka
+
+Step 109:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:38 PM
+  Arrive: 7:39 PM
+  Travel Time: 1 minutes
+  Distance: 0.005 km
+  Segment Cost: 0.10 Taka
+
+Step 110:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:39 PM
+  Arrive: 7:40 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Segment Cost: 0.20 Taka
+
+Step 111:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Depart: 7:40 PM
+  Arrive: 7:41 PM
+  Travel Time: 1 minutes
+  Distance: 0.056 km
+  Segment Cost: 0.28 Taka
+
+Step 112:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 7:45 PM)
+  Depart: 7:45 PM
+  Arrive: 7:46 PM
+  Travel Time: 1 minutes
+  Distance: 0.064 km
+  Segment Cost: 0.32 Taka
+
+Step 113:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:46 PM
+  Arrive: 7:47 PM
+  Travel Time: 1 minutes
+  Distance: 0.028 km
+  Segment Cost: 0.57 Taka
+
+Step 114:
+  Mode: Car (Speed: 20.00 km/h, Cost: ৳20.00/km)
+  Depart: 7:47 PM
+  Arrive: 7:48 PM
+  Travel Time: 1 minutes
+  Distance: 0.034 km
+  Segment Cost: 0.68 Taka
+
+Step 115:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 2 minutes (next departure at 7:50 PM)
+  Depart: 7:50 PM
+  Arrive: 7:51 PM
+  Travel Time: 1 minutes
+  Distance: 0.065 km
+  Segment Cost: 0.32 Taka
+
+Step 116:
+  Mode: Metro (Speed: 15.00 km/h, Cost: ৳5.00/km)
+  Wait: 4 minutes (next departure at 7:55 PM)
+  Depart: 7:55 PM
+  Arrive: 7:56 PM
+  Travel Time: 1 minutes
+  Distance: 0.109 km
+  Segment Cost: 0.54 Taka
+
+=======================================
+
+=======================================
+       GENERATING KML FILE
+=======================================
+
+✓ SUCCESS! KML file created: problem6_route.kml
+
+To view on Google My Maps:
+1. Go to https://www.google.com/mymaps
+2. Click 'CREATE A NEW MAP'
+3. Click 'Import' in the left panel
+4. Upload problem6_route.kml
+5. Your deadline-constrained route will appear!

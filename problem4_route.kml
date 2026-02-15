@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <name>Problem 4: Time-Dependent Cheapest Route</name>
+  <description>Start: 5:43 PM, Arrival: 12:35 PM, Cost: 69.049990 Taka</description>
+  <Style id="carStyle">
+    <LineStyle><color>ff0000ff</color><width>4</width></LineStyle>
+  </Style>
+  <Style id="metroStyle">
+    <LineStyle><color>ff00ff00</color><width>4</width></LineStyle>
+  </Style>
+  <Style id="bikolpoBusStyle">
+    <LineStyle><color>ffff0000</color><width>3</width></LineStyle>
+  </Style>
+  <Style id="uttaraBusStyle">
+    <LineStyle><color>ffff8800</color><width>3</width></LineStyle>
+  </Style>
+  <Style id="walkStyle">
+    <LineStyle><color>ff888888</color><width>2</width></LineStyle>
+  </Style>
+  <Style id="sourceStyle">
+    <IconStyle><color>ff00ff00</color></IconStyle>
+  </Style>
+  <Style id="destStyle">
+    <IconStyle><color>ff0000ff</color></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Source</name>
+    <description>Starting point</description>
+    <styleUrl>#sourceStyle</styleUrl>
+    <Point>
+      <coordinates>90.363833,23.834145,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Destination</name>
+    <description>Ending point</description>
+    <styleUrl>#destStyle</styleUrl>
+    <Point>
+      <coordinates>90.372793,23.797440,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Segment 1 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363833,23.834145,0
+        90.363832,23.833879,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 2 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363832,23.833879,0
+        90.363860,23.833543,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 3 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363860,23.833543,0
+        90.363853,23.832228,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 4 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363853,23.832228,0
+        90.363855,23.832081,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 5 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363855,23.832081,0
+        90.363855,23.832054,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 6 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363855,23.832054,0
+        90.363846,23.831827,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 7 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363846,23.831827,0
+        90.363839,23.831643,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 8 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363839,23.831643,0
+        90.363829,23.831451,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 9 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.363829,23.831451,0
+        90.364156,23.829362,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 10 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364156,23.829362,0
+        90.364226,23.829363,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 11 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364226,23.829363,0
+        90.364255,23.828335,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 12 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364255,23.828335,0
+        90.364282,23.827842,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 13 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364282,23.827842,0
+        90.364237,23.827834,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 14 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364237,23.827834,0
+        90.364251,23.827341,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 15 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364251,23.827341,0
+        90.364269,23.826747,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 16 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364269,23.826747,0
+        90.364278,23.826438,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 17 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364278,23.826438,0
+        90.364279,23.826382,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 18 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364279,23.826382,0
+        90.364280,23.826188,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 19 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364280,23.826188,0
+        90.364282,23.825693,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 20 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364282,23.825693,0
+        90.364286,23.825198,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 21 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364286,23.825198,0
+        90.364286,23.825110,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 22 - Metro</name>
+    <styleUrl>#metroStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364286,23.825110,0
+        90.364287,23.824956,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 23 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364287,23.824956,0
+        90.364304,23.824687,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 24 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364304,23.824687,0
+        90.364315,23.824510,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 25 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364315,23.824510,0
+        90.364354,23.823893,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 26 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364354,23.823893,0
+        90.364366,23.823705,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 27 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364366,23.823705,0
+        90.364417,23.822740,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 28 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364417,23.822740,0
+        90.364420,23.822716,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 29 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364420,23.822716,0
+        90.364431,23.822647,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 30 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364431,23.822647,0
+        90.364492,23.822236,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 31 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364492,23.822236,0
+        90.364516,23.822151,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 32 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364516,23.822151,0
+        90.364663,23.821602,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 33 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364663,23.821602,0
+        90.364795,23.821108,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 34 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364795,23.821108,0
+        90.364860,23.820867,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 35 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364860,23.820867,0
+        90.364921,23.820637,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 36 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364921,23.820637,0
+        90.364931,23.820601,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 37 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.364931,23.820601,0
+        90.365007,23.820315,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 38 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365007,23.820315,0
+        90.365075,23.820063,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 39 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365075,23.820063,0
+        90.365139,23.819825,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 40 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365139,23.819825,0
+        90.365202,23.819587,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 41 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365202,23.819587,0
+        90.365339,23.819078,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 42 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365339,23.819078,0
+        90.365345,23.819055,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 43 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365345,23.819055,0
+        90.365374,23.818946,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 44 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365374,23.818946,0
+        90.365488,23.818534,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 45 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365488,23.818534,0
+        90.365634,23.818005,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 46 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365634,23.818005,0
+        90.365781,23.817471,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 47 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365781,23.817471,0
+        90.365877,23.817122,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 48 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365877,23.817122,0
+        90.365921,23.816961,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 49 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.365921,23.816961,0
+        90.366058,23.816463,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 50 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366058,23.816463,0
+        90.366170,23.816058,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 51 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366170,23.816058,0
+        90.366200,23.815947,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 52 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366200,23.815947,0
+        90.366249,23.815764,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 53 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366249,23.815764,0
+        90.366345,23.815410,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 54 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366345,23.815410,0
+        90.366421,23.815129,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 55 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366421,23.815129,0
+        90.366474,23.814931,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 56 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366474,23.814931,0
+        90.366576,23.814553,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 57 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366576,23.814553,0
+        90.366615,23.814409,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 58 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366615,23.814409,0
+        90.366742,23.813941,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 59 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366742,23.813941,0
+        90.366890,23.813393,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 60 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366890,23.813393,0
+        90.366904,23.813343,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 61 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366904,23.813343,0
+        90.366978,23.813069,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 62 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.366978,23.813069,0
+        90.367005,23.812967,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 63 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367005,23.812967,0
+        90.367041,23.812834,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 64 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367041,23.812834,0
+        90.367136,23.812482,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 65 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367136,23.812482,0
+        90.367263,23.812010,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 66 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367263,23.812010,0
+        90.367406,23.811478,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 67 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367406,23.811478,0
+        90.367482,23.811196,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 68 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367482,23.811196,0
+        90.367541,23.810978,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 69 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367541,23.810978,0
+        90.367669,23.810499,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 70 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367669,23.810499,0
+        90.367680,23.810460,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 71 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367680,23.810460,0
+        90.367821,23.809964,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 72 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367821,23.809964,0
+        90.367855,23.809842,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 73 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367855,23.809842,0
+        90.367976,23.809417,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 74 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.367976,23.809417,0
+        90.368009,23.809299,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 75 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368009,23.809299,0
+        90.368123,23.808894,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 76 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368123,23.808894,0
+        90.368180,23.808691,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 77 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368180,23.808691,0
+        90.368237,23.808491,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 78 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368237,23.808491,0
+        90.368265,23.808393,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 79 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368265,23.808393,0
+        90.368481,23.807630,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 80 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368481,23.807630,0
+        90.368626,23.807119,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 81 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368626,23.807119,0
+        90.368654,23.807017,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 82 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368654,23.807017,0
+        90.368726,23.806756,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 83 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368726,23.806756,0
+        90.368754,23.806656,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 84 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368754,23.806656,0
+        90.368835,23.806442,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 85 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.368835,23.806442,0
+        90.369050,23.805951,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 86 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369050,23.805951,0
+        90.369084,23.805873,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 87 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369084,23.805873,0
+        90.369223,23.805553,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 88 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369223,23.805553,0
+        90.369288,23.805404,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 89 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369288,23.805404,0
+        90.369492,23.804995,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 90 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369492,23.804995,0
+        90.369672,23.804634,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 91 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369672,23.804634,0
+        90.369741,23.804497,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 92 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369741,23.804497,0
+        90.369836,23.804307,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 93 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369836,23.804307,0
+        90.369938,23.804101,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 94 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.369938,23.804101,0
+        90.370117,23.803745,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 95 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370117,23.803745,0
+        90.370159,23.803662,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 96 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370159,23.803662,0
+        90.370208,23.803547,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 97 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370208,23.803547,0
+        90.370297,23.803335,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 98 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370297,23.803335,0
+        90.370338,23.803239,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 99 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370338,23.803239,0
+        90.370483,23.802896,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 100 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370483,23.802896,0
+        90.370564,23.802708,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 101 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370564,23.802708,0
+        90.370600,23.802625,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 102 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370600,23.802625,0
+        90.370836,23.802074,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 103 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370836,23.802074,0
+        90.370895,23.801935,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 104 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.370895,23.801935,0
+        90.371067,23.801532,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 105 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371067,23.801532,0
+        90.371197,23.801224,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 106 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371197,23.801224,0
+        90.371336,23.800898,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 107 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371336,23.800898,0
+        90.371414,23.800714,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 108 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371414,23.800714,0
+        90.371483,23.800552,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 109 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371483,23.800552,0
+        90.371500,23.800510,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 110 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371500,23.800510,0
+        90.371536,23.800428,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 111 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371536,23.800428,0
+        90.371735,23.799963,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 112 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371735,23.799963,0
+        90.371966,23.799425,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 113 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.371966,23.799425,0
+        90.372061,23.799184,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 114 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.372061,23.799184,0
+        90.372187,23.798902,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 115 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.372187,23.798902,0
+        90.372416,23.798357,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Segment 116 - Car</name>
+    <styleUrl>#carStyle</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        90.372416,23.798357,0
+        90.372793,23.797440,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

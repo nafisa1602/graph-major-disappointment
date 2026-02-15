@@ -1,0 +1,532 @@
+=======================================
+    Problem 5: Fastest Route (Time)    
+=======================================
+Total nodes loaded: 46669
+
+Enter source (longitude latitude): Enter destination (longitude latitude): Enter start time (hour minute in 24h format, e.g., 17 43): 
+=======================================
+Starting Journey at 2:30 PM
+=======================================
+
+2. Network Travel:
+   Start: 2:30 PM
+   End: 3:21 PM
+   Duration: 51 minutes
+   Number of segments: 49
+
+=======================================
+       SUMMARY
+=======================================
+Departure Time: 2:30 PM
+Arrival Time: 3:21 PM
+Total Duration: 51 minutes (0h 51m)
+Total Cost: 45.19 Taka (informational)
+
+=======================================
+       DETAILED ROUTE
+=======================================
+
+Step 1:
+  Mode: Car
+  From: (90.3638, 23.8341)
+  To: (90.3638, 23.8339)
+  Depart: 2:30 PM
+  Arrive: 2:31 PM
+  Travel Time: 1 minutes
+  Distance: 0.030 km
+  Cost: 0.59 Taka
+
+Step 2:
+  Mode: Car
+  From: (90.3638, 23.8339)
+  To: (90.3639, 23.8335)
+  Depart: 2:31 PM
+  Arrive: 2:32 PM
+  Travel Time: 1 minutes
+  Distance: 0.037 km
+  Cost: 0.75 Taka
+
+Step 3:
+  Mode: Car
+  From: (90.3639, 23.8335)
+  To: (90.3639, 23.8322)
+  Depart: 2:32 PM
+  Arrive: 2:33 PM
+  Travel Time: 1 minutes
+  Distance: 0.146 km
+  Cost: 2.92 Taka
+
+Step 4:
+  Mode: Car
+  From: (90.3639, 23.8322)
+  To: (90.3639, 23.8321)
+  Depart: 2:33 PM
+  Arrive: 2:34 PM
+  Travel Time: 1 minutes
+  Distance: 0.016 km
+  Cost: 0.33 Taka
+
+Step 5:
+  Mode: Car
+  From: (90.3639, 23.8321)
+  To: (90.3639, 23.8321)
+  Depart: 2:34 PM
+  Arrive: 2:35 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Cost: 0.06 Taka
+
+Step 6:
+  Mode: Car
+  From: (90.3639, 23.8321)
+  To: (90.3638, 23.8318)
+  Depart: 2:35 PM
+  Arrive: 2:36 PM
+  Travel Time: 1 minutes
+  Distance: 0.025 km
+  Cost: 0.51 Taka
+
+Step 7:
+  Mode: Car
+  From: (90.3638, 23.8318)
+  To: (90.3638, 23.8316)
+  Depart: 2:36 PM
+  Arrive: 2:37 PM
+  Travel Time: 1 minutes
+  Distance: 0.020 km
+  Cost: 0.41 Taka
+
+Step 8:
+  Mode: Car
+  From: (90.3638, 23.8316)
+  To: (90.3638, 23.8315)
+  Depart: 2:37 PM
+  Arrive: 2:38 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Cost: 0.43 Taka
+
+Step 9:
+  Mode: Car
+  From: (90.3638, 23.8315)
+  To: (90.3642, 23.8294)
+  Depart: 2:38 PM
+  Arrive: 2:40 PM
+  Travel Time: 2 minutes
+  Distance: 0.235 km
+  Cost: 4.69 Taka
+
+Step 10:
+  Mode: Car
+  From: (90.3642, 23.8294)
+  To: (90.3642, 23.8294)
+  Depart: 2:40 PM
+  Arrive: 2:41 PM
+  Travel Time: 1 minutes
+  Distance: 0.007 km
+  Cost: 0.14 Taka
+
+Step 11:
+  Mode: Car
+  From: (90.3642, 23.8294)
+  To: (90.3643, 23.8283)
+  Depart: 2:41 PM
+  Arrive: 2:42 PM
+  Travel Time: 1 minutes
+  Distance: 0.114 km
+  Cost: 2.29 Taka
+
+Step 12:
+  Mode: Car
+  From: (90.3643, 23.8283)
+  To: (90.3643, 23.8278)
+  Depart: 2:42 PM
+  Arrive: 2:43 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Cost: 1.10 Taka
+
+Step 13:
+  Mode: Car
+  From: (90.3643, 23.8278)
+  To: (90.3642, 23.8278)
+  Depart: 2:43 PM
+  Arrive: 2:44 PM
+  Travel Time: 1 minutes
+  Distance: 0.005 km
+  Cost: 0.09 Taka
+
+Step 14:
+  Mode: Car
+  From: (90.3642, 23.8278)
+  To: (90.3643, 23.8273)
+  Depart: 2:44 PM
+  Arrive: 2:45 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Cost: 1.10 Taka
+
+Step 15:
+  Mode: Car
+  From: (90.3643, 23.8273)
+  To: (90.3643, 23.8267)
+  Depart: 2:45 PM
+  Arrive: 2:46 PM
+  Travel Time: 1 minutes
+  Distance: 0.066 km
+  Cost: 1.32 Taka
+
+Step 16:
+  Mode: Car
+  From: (90.3643, 23.8267)
+  To: (90.3643, 23.8264)
+  Depart: 2:46 PM
+  Arrive: 2:47 PM
+  Travel Time: 1 minutes
+  Distance: 0.034 km
+  Cost: 0.69 Taka
+
+Step 17:
+  Mode: Car
+  From: (90.3643, 23.8264)
+  To: (90.3643, 23.8264)
+  Depart: 2:47 PM
+  Arrive: 2:48 PM
+  Travel Time: 1 minutes
+  Distance: 0.006 km
+  Cost: 0.12 Taka
+
+Step 18:
+  Mode: Car
+  From: (90.3643, 23.8264)
+  To: (90.3643, 23.8262)
+  Depart: 2:48 PM
+  Arrive: 2:49 PM
+  Travel Time: 1 minutes
+  Distance: 0.022 km
+  Cost: 0.43 Taka
+
+Step 19:
+  Mode: Car
+  From: (90.3643, 23.8262)
+  To: (90.3643, 23.8257)
+  Depart: 2:49 PM
+  Arrive: 2:50 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Cost: 1.10 Taka
+
+Step 20:
+  Mode: Car
+  From: (90.3643, 23.8257)
+  To: (90.3643, 23.8252)
+  Depart: 2:50 PM
+  Arrive: 2:51 PM
+  Travel Time: 1 minutes
+  Distance: 0.055 km
+  Cost: 1.10 Taka
+
+Step 21:
+  Mode: Car
+  From: (90.3643, 23.8252)
+  To: (90.3643, 23.8251)
+  Depart: 2:51 PM
+  Arrive: 2:52 PM
+  Travel Time: 1 minutes
+  Distance: 0.010 km
+  Cost: 0.20 Taka
+
+Step 22:
+  Mode: Car
+  From: (90.3643, 23.8251)
+  To: (90.3643, 23.8250)
+  Depart: 2:52 PM
+  Arrive: 2:53 PM
+  Travel Time: 1 minutes
+  Distance: 0.017 km
+  Cost: 0.34 Taka
+
+Step 23:
+  Mode: Car
+  From: (90.3643, 23.8250)
+  To: (90.3643, 23.8247)
+  Depart: 2:53 PM
+  Arrive: 2:54 PM
+  Travel Time: 1 minutes
+  Distance: 0.030 km
+  Cost: 0.60 Taka
+
+Step 24:
+  Mode: Car
+  From: (90.3643, 23.8247)
+  To: (90.3643, 23.8245)
+  Depart: 2:54 PM
+  Arrive: 2:55 PM
+  Travel Time: 1 minutes
+  Distance: 0.020 km
+  Cost: 0.39 Taka
+
+Step 25:
+  Mode: Car
+  From: (90.3643, 23.8245)
+  To: (90.3644, 23.8239)
+  Depart: 2:55 PM
+  Arrive: 2:56 PM
+  Travel Time: 1 minutes
+  Distance: 0.069 km
+  Cost: 1.37 Taka
+
+Step 26:
+  Mode: Car
+  From: (90.3644, 23.8239)
+  To: (90.3644, 23.8237)
+  Depart: 2:56 PM
+  Arrive: 2:57 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Cost: 0.42 Taka
+
+Step 27:
+  Mode: Car
+  From: (90.3644, 23.8237)
+  To: (90.3644, 23.8227)
+  Depart: 2:57 PM
+  Arrive: 2:58 PM
+  Travel Time: 1 minutes
+  Distance: 0.107 km
+  Cost: 2.15 Taka
+
+Step 28:
+  Mode: Car
+  From: (90.3644, 23.8227)
+  To: (90.3644, 23.8227)
+  Depart: 2:58 PM
+  Arrive: 2:59 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Cost: 0.05 Taka
+
+Step 29:
+  Mode: Car
+  From: (90.3644, 23.8227)
+  To: (90.3637, 23.8227)
+  Depart: 2:59 PM
+  Arrive: 3:00 PM
+  Travel Time: 1 minutes
+  Distance: 0.070 km
+  Cost: 1.40 Taka
+
+Step 30:
+  Mode: Car
+  From: (90.3637, 23.8227)
+  To: (90.3637, 23.8227)
+  Depart: 3:00 PM
+  Arrive: 3:01 PM
+  Travel Time: 1 minutes
+  Distance: 0.007 km
+  Cost: 0.13 Taka
+
+Step 31:
+  Mode: Car
+  From: (90.3637, 23.8227)
+  To: (90.3639, 23.8209)
+  Depart: 3:01 PM
+  Arrive: 3:03 PM
+  Travel Time: 2 minutes
+  Distance: 0.207 km
+  Cost: 4.14 Taka
+
+Step 32:
+  Mode: Car
+  From: (90.3639, 23.8209)
+  To: (90.3639, 23.8206)
+  Depart: 3:03 PM
+  Arrive: 3:04 PM
+  Travel Time: 1 minutes
+  Distance: 0.035 km
+  Cost: 0.69 Taka
+
+Step 33:
+  Mode: Car
+  From: (90.3639, 23.8206)
+  To: (90.3649, 23.8206)
+  Depart: 3:04 PM
+  Arrive: 3:05 PM
+  Travel Time: 1 minutes
+  Distance: 0.102 km
+  Cost: 2.04 Taka
+
+Step 34:
+  Mode: Car
+  From: (90.3649, 23.8206)
+  To: (90.3650, 23.8203)
+  Depart: 3:05 PM
+  Arrive: 3:06 PM
+  Travel Time: 1 minutes
+  Distance: 0.033 km
+  Cost: 0.65 Taka
+
+Step 35:
+  Mode: Car
+  From: (90.3650, 23.8203)
+  To: (90.3651, 23.8201)
+  Depart: 3:06 PM
+  Arrive: 3:07 PM
+  Travel Time: 1 minutes
+  Distance: 0.029 km
+  Cost: 0.58 Taka
+
+Step 36:
+  Mode: Car
+  From: (90.3651, 23.8201)
+  To: (90.3651, 23.8198)
+  Depart: 3:07 PM
+  Arrive: 3:08 PM
+  Travel Time: 1 minutes
+  Distance: 0.027 km
+  Cost: 0.55 Taka
+
+Step 37:
+  Mode: Car
+  From: (90.3651, 23.8198)
+  To: (90.3652, 23.8196)
+  Depart: 3:08 PM
+  Arrive: 3:09 PM
+  Travel Time: 1 minutes
+  Distance: 0.027 km
+  Cost: 0.54 Taka
+
+Step 38:
+  Mode: Car
+  From: (90.3652, 23.8196)
+  To: (90.3653, 23.8191)
+  Depart: 3:09 PM
+  Arrive: 3:10 PM
+  Travel Time: 1 minutes
+  Distance: 0.058 km
+  Cost: 1.17 Taka
+
+Step 39:
+  Mode: Car
+  From: (90.3653, 23.8191)
+  To: (90.3653, 23.8191)
+  Depart: 3:10 PM
+  Arrive: 3:11 PM
+  Travel Time: 1 minutes
+  Distance: 0.003 km
+  Cost: 0.05 Taka
+
+Step 40:
+  Mode: Car
+  From: (90.3653, 23.8191)
+  To: (90.3654, 23.8189)
+  Depart: 3:11 PM
+  Arrive: 3:12 PM
+  Travel Time: 1 minutes
+  Distance: 0.012 km
+  Cost: 0.25 Taka
+
+Step 41:
+  Mode: Car
+  From: (90.3654, 23.8189)
+  To: (90.3655, 23.8185)
+  Depart: 3:12 PM
+  Arrive: 3:13 PM
+  Travel Time: 1 minutes
+  Distance: 0.047 km
+  Cost: 0.95 Taka
+
+Step 42:
+  Mode: Car
+  From: (90.3655, 23.8185)
+  To: (90.3656, 23.8180)
+  Depart: 3:13 PM
+  Arrive: 3:14 PM
+  Travel Time: 1 minutes
+  Distance: 0.061 km
+  Cost: 1.21 Taka
+
+Step 43:
+  Mode: Car
+  From: (90.3656, 23.8180)
+  To: (90.3658, 23.8175)
+  Depart: 3:14 PM
+  Arrive: 3:15 PM
+  Travel Time: 1 minutes
+  Distance: 0.061 km
+  Cost: 1.22 Taka
+
+Step 44:
+  Mode: Car
+  From: (90.3658, 23.8175)
+  To: (90.3659, 23.8171)
+  Depart: 3:15 PM
+  Arrive: 3:16 PM
+  Travel Time: 1 minutes
+  Distance: 0.040 km
+  Cost: 0.80 Taka
+
+Step 45:
+  Mode: Car
+  From: (90.3659, 23.8171)
+  To: (90.3659, 23.8170)
+  Depart: 3:16 PM
+  Arrive: 3:17 PM
+  Travel Time: 1 minutes
+  Distance: 0.018 km
+  Cost: 0.37 Taka
+
+Step 46:
+  Mode: Car
+  From: (90.3659, 23.8170)
+  To: (90.3661, 23.8165)
+  Depart: 3:17 PM
+  Arrive: 3:18 PM
+  Travel Time: 1 minutes
+  Distance: 0.057 km
+  Cost: 1.14 Taka
+
+Step 47:
+  Mode: Car
+  From: (90.3661, 23.8165)
+  To: (90.3662, 23.8161)
+  Depart: 3:18 PM
+  Arrive: 3:19 PM
+  Travel Time: 1 minutes
+  Distance: 0.046 km
+  Cost: 0.93 Taka
+
+Step 48:
+  Mode: Car
+  From: (90.3662, 23.8161)
+  To: (90.3662, 23.8159)
+  Depart: 3:19 PM
+  Arrive: 3:20 PM
+  Travel Time: 1 minutes
+  Distance: 0.013 km
+  Cost: 0.25 Taka
+
+Step 49:
+  Mode: Car
+  From: (90.3662, 23.8159)
+  To: (90.3662, 23.8158)
+  Depart: 3:20 PM
+  Arrive: 3:21 PM
+  Travel Time: 1 minutes
+  Distance: 0.021 km
+  Cost: 0.42 Taka
+
+=======================================
+
+=======================================
+       GENERATING KML FILE
+=======================================
+
+✓ SUCCESS! KML file created: problem5_route.kml
+
+To view on Google My Maps:
+1. Go to https://www.google.com/mymaps
+2. Click 'CREATE A NEW MAP'
+3. Click 'Import' in the left panel
+4. Upload problem5_route.kml
+5. Your fastest route will appear with colored segments!

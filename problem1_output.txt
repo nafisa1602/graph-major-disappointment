@@ -1,0 +1,4 @@
+Shortest distance: 5.25251 km
+
+KML file created: problem1_route.kml
+Upload to https://www.google.com/mymaps to view!
