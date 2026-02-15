@@ -1,17 +1,10 @@
-// kml_generator.hpp
-// Add this file to your project directory (same folder as graph.hpp)
-
 #ifndef KML_GENERATOR_HPP
 #define KML_GENERATOR_HPP
-
 #include <fstream>
 #include <vector>
 #include <string>
 #include <iomanip>
-
 using namespace std;
-
-// Simple KML writer - just outputs the path
 void writeSimpleKML(
     const string& filename,
     const vector<pair<double, double>>& coordinates,
@@ -45,7 +38,6 @@ void writeSimpleKML(
     kml.close();
 }
 
-// Advanced KML writer - with colors and markers
 void writeAdvancedKML(
     const string& filename,
     const vector<pair<double, double>>& pathCoords,
@@ -64,7 +56,6 @@ void writeAdvancedKML(
     kml << "  <name>" << title << "</name>\n";
     kml << "  <description>" << summary << "</description>\n";
     
-    // Define styles
     kml << "  <Style id=\"carStyle\">\n";
     kml << "    <LineStyle><color>ff0000ff</color><width>4</width></LineStyle>\n";
     kml << "  </Style>\n";
@@ -103,8 +94,7 @@ void writeAdvancedKML(
         << sourceCoord.first << "," << sourceCoord.second << ",0</coordinates>\n";
     kml << "    </Point>\n";
     kml << "  </Placemark>\n";
-    
-    // Add destination marker
+   
     kml << "  <Placemark>\n";
     kml << "    <name>Destination</name>\n";
     kml << "    <description>Ending point</description>\n";
@@ -115,7 +105,7 @@ void writeAdvancedKML(
     kml << "    </Point>\n";
     kml << "  </Placemark>\n";
     
-    // Add path segments
+   
     for(size_t i = 0; i + 1 < pathCoords.size(); i++) {
         string mode = (i < segmentModes.size()) ? segmentModes[i] : "Unknown";
         string styleUrl = "#carStyle"; // default
@@ -145,4 +135,5 @@ void writeAdvancedKML(
     kml.close();
 }
 
-#endif // KML_GENERATOR_HPP
+
+#endif 
